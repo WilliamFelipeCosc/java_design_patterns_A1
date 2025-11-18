@@ -1,6 +1,6 @@
 package atividade1;
 
-public class SistemaLogistica {
+public class Main {
     
     public static void main(String[] args) {        
         RelatorioFactory factoryDiario = new RelatorioDiarioFactory();

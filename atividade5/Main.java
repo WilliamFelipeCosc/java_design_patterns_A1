@@ -3,7 +3,7 @@ package atividade5;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SistemaCorporativo {
+public class Main {
     
     public static void main(String[] args) {
         System.out.println("====================================================");
