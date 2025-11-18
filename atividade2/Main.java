@@ -50,13 +50,5 @@ public class Main {
         analisador.setEstrategia(new ModeloConservador());
         PerfilRisco perfilConservador = analisador.analisarCliente(cliente1);
         
-        System.out.println("\n" + "=".repeat(50));
-        System.out.println("EXTENSIBILIDADE:");
-        System.out.println("Para adicionar um novo modelo (ex: ModeloDinamico):");
-        System.out.println("1. Criar classe ModeloDinamico implements EstrategiaCalculoRisco");
-        System.out.println("2. Implementar metodo calcularPerfil() com nova logica");
-        System.out.println("3. Usar: analisador.setEstrategia(new ModeloDinamico())");
-        System.out.println("\nSem modificar codigo existente (Open/Closed Principle)");
-        System.out.println("=".repeat(50));
     }
 }
