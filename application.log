@@ -1,0 +1,59 @@
+================================================================================
+SISTEMA DE LOGGING CENTRALIZADO - Inicializado em 2025-11-18 19:35:33
+================================================================================
+
+[2025-11-18 19:35:33.845] [INFO] [Main] Sistema iniciado - 
+[2025-11-18 19:35:33.847] [EVENTO] [Autenticacao] Usuario admin fez login - 
+[2025-11-18 19:35:33.847] [AUDITORIA] [DAO] Consulta ao banco de dados - SELECT * FROM usuarios
+[2025-11-18 19:35:33.848] [ERRO] [DatabaseService] Falha na conexao - Timeout apos 30 segundos
+[2025-11-18 19:35:33.848] [AVISO] [MonitorRecursos] Memoria em 85% - Considerar escalonamento
+[2025-11-18 19:35:33.850] [INFO] [ModuloVendas] Modulo iniciado - 
+[2025-11-18 19:35:33.851] [INFO] [ModuloEstoque] Modulo iniciado - 
+[2025-11-18 19:35:33.851] [INFO] [ModuloFinanceiro] Modulo iniciado - 
+[2025-11-18 19:35:33.851] [INFO] [ModuloRH] Modulo iniciado - 
+[2025-11-18 19:35:33.851] [AVISO] [ModuloRH] Aviso na operacao 1 - Situacao que requer atencao
+[2025-11-18 19:35:33.953] [INFO] [ModuloRelatorios] Modulo iniciado - 
+[2025-11-18 19:35:33.954] [AUDITORIA] [ModuloVendas] Acao auditada na operacao 1 - Usuario: user0
+[2025-11-18 19:35:33.954] [AUDITORIA] [ModuloEstoque] Acao auditada na operacao 1 - Usuario: user97
+[2025-11-18 19:35:33.954] [AVISO] [ModuloFinanceiro] Aviso na operacao 1 - Situacao que requer atencao
+[2025-11-18 19:35:33.954] [EVENTO] [ModuloRelatorios] Evento normal na operacao 1 - 
+[2025-11-18 19:35:33.963] [AUDITORIA] [ModuloVendas] Acao auditada na operacao 2 - Usuario: user22
+[2025-11-18 19:35:33.968] [AUDITORIA] [ModuloFinanceiro] Acao auditada na operacao 2 - Usuario: user74
+[2025-11-18 19:35:33.977] [EVENTO] [ModuloEstoque] Evento normal na operacao 2 - 
+[2025-11-18 19:35:33.995] [EVENTO] [ModuloRH] Evento normal na operacao 2 - 
+[2025-11-18 19:35:34.003] [EVENTO] [ModuloRelatorios] Evento normal na operacao 2 - 
+[2025-11-18 19:35:34.105] [EVENTO] [ModuloFinanceiro] Evento normal na operacao 3 - 
+[2025-11-18 19:35:34.105] [AUDITORIA] [ModuloFinanceiro] Acao auditada na operacao 4 - Usuario: user8
+[2025-11-18 19:35:34.105] [EVENTO] [ModuloVendas] Evento normal na operacao 3 - 
+[2025-11-18 19:35:34.105] [AUDITORIA] [ModuloEstoque] Acao auditada na operacao 3 - Usuario: user12
+[2025-11-18 19:35:34.105] [EVENTO] [ModuloRH] Evento normal na operacao 3 - 
+[2025-11-18 19:35:34.106] [EVENTO] [ModuloRelatorios] Evento normal na operacao 3 - 
+[2025-11-18 19:35:34.120] [EVENTO] [ModuloRH] Evento normal na operacao 4 - 
+[2025-11-18 19:35:34.120] [EVENTO] [ModuloFinanceiro] Evento normal na operacao 5 - 
+[2025-11-18 19:35:34.122] [INFO] [ModuloFinanceiro] Modulo finalizado - 
+[2025-11-18 19:35:34.124] [AVISO] [ModuloRelatorios] Aviso na operacao 4 - Situacao que requer atencao
+[2025-11-18 19:35:34.225] [ERRO] [ModuloEstoque] Erro simulado na operacao 4 - Stack trace simulado
+[2025-11-18 19:35:34.225] [EVENTO] [ModuloVendas] Evento normal na operacao 4 - 
+[2025-11-18 19:35:34.225] [AVISO] [ModuloRH] Aviso na operacao 5 - Situacao que requer atencao
+[2025-11-18 19:35:34.229] [INFO] [ModuloRH] Modulo finalizado - 
+[2025-11-18 19:35:34.237] [ERRO] [ModuloRelatorios] Erro simulado na operacao 5 - Stack trace simulado
+[2025-11-18 19:35:34.240] [INFO] [ModuloRelatorios] Modulo finalizado - 
+[2025-11-18 19:35:34.244] [ERRO] [ModuloEstoque] Erro simulado na operacao 5 - Stack trace simulado
+[2025-11-18 19:35:34.246] [INFO] [ModuloEstoque] Modulo finalizado - 
+[2025-11-18 19:35:34.248] [EVENTO] [ModuloVendas] Evento normal na operacao 5 - 
+[2025-11-18 19:35:34.284] [INFO] [ModuloVendas] Modulo finalizado - 
+[2025-11-18 19:35:34.385] [INFO] [ConfigTest] Log apos desativar servidor - 
+[2025-11-18 19:35:34.385] [EVENTO] [ConfigTest] Outro evento de teste - 
+[2025-11-18 19:35:34.386] [INFO] [ConfigTest] Log apos reativar servidor - 
+[2025-11-18 19:35:34.386] [INFO] [ServicoVendas] Iniciando processamento de pedido - 
+[2025-11-18 19:35:34.386] [AUDITORIA] [ServicoVendas] Pedido #12345 criado - Usuario: joao.silva
+[2025-11-18 19:35:34.386] [INFO] [ServicoEstoque] Verificando estoque - 
+[2025-11-18 19:35:34.386] [EVENTO] [ServicoEstoque] Produto disponivel - 
+[2025-11-18 19:35:34.386] [INFO] [ServicoFinanceiro] Processando pagamento - 
+[2025-11-18 19:35:34.386] [AUDITORIA] [ServicoFinanceiro] Pagamento aprovado - Valor: R$ 1.500,00
+[2025-11-18 19:35:34.386] [INFO] [ServicoEstoque] Atualizando estoque - 
+[2025-11-18 19:35:34.487] [EVENTO] [ServicoEstoque] Estoque atualizado - 
+[2025-11-18 19:35:34.487] [INFO] [ServicoNotificacao] Enviando notificacao - 
+[2025-11-18 19:35:34.487] [EVENTO] [ServicoNotificacao] Email enviado ao cliente - 
+[2025-11-18 19:35:34.487] [INFO] [ServicoVendas] Pedido finalizado com sucesso - 
+[2025-11-18 19:35:34.487] [AUDITORIA] [ServicoVendas] Pedido #12345 concluido - Status: CONCLUIDO
